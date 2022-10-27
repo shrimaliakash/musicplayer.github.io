@@ -36,7 +36,8 @@ body{
 .wrapper i{
 	cursor: pointer;
 }
-.top-bar, .progress-area .timer, .controls, .music-list .header, .music-list li{
+.top-bar, .progress-area .timer, 
+.controls, .music-list .header, .music-list li{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -124,7 +125,8 @@ body{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-.controls i:nth-child(2),.controls i:nth-child(4){
+.controls i:nth-child(2),
+.controls i:nth-child(4){
 	font-size: 43px;
 }
 .controls #prev{
@@ -163,6 +165,7 @@ body{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
 .music-list{
 	position: absolute;
 	left: 0;
@@ -211,13 +214,13 @@ body{
 	list-style: none;
 	padding-bottom: 10px;
 	margin-bottom: 5px;
-	margin-bottom: 5px;color: var(--lightblack);	
+	color: var(--lightblack);	
 	border-bottom: 1px solid #e5e5e5;
 }
 .music-list ul li:last-child{
 	border-bottom: 0px;
 }
-.music-list ul li row span{
+.music-list ul li .row span{
 	font-size: 17px;
 }
 ul li .row p{
@@ -225,4 +228,9 @@ ul li .row p{
 }
 ul li .audio-duration{
 	font-size: 16px;
+}
+ul li.playing{
+	color: var(--violet);
+	pointer-events: none;
+
 }

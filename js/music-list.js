@@ -30,9 +30,9 @@ let allMusic = [
         src: "sample3"
     },
     {
-        name: "Symphony No.6 (1st movement)",
+        name: "sample5",
         artist: "panjabi",
         img: "panjabi",
-        src: "Symphony No.6 (1st movement)"
+        src: "sample5"
     }
 ]
