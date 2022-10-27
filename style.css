@@ -22,7 +22,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 100vh;
+	/* min-width: 100vh; */
 }
 .wrapper{
 	width: 380px;
