@@ -6,7 +6,7 @@ curl_setopt_array($curl, [
 	CURLOPT_URL => "https://spotify23.p.rapidapi.com/search/?q=%3CREQUIRED%3E&type=multi&offset=0&limit=10&numberOfTopResults=5",
 	CURLOPT_RETURNTRANSFER => true,
 	CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_SSL_VERIFYPEER => false,
+    CURLOPT_SSL_VERIFYPEER => false,
 	CURLOPT_ENCODING => "",
 	CURLOPT_MAXREDIRS => 10,
 	CURLOPT_TIMEOUT => 30,
@@ -20,11 +20,17 @@ curl_setopt_array($curl, [
 
 $response = curl_exec($curl);
 $err = curl_error($curl);
-
 curl_close($curl);
 
 if ($err) {
 	echo "cURL Error #:" . $err;
 } else {
-	echo $response;
+	$response1 = json_decode($response, true);
+	echo "<pre>";print_r($response1);exit;
+	// foreach($response1['albums']['items'] as $data) {
+	// 	foreach($data['data'] as $key => $new_data) {
+	// 		echo $key . "=>".$new_data;
+	// 		echo "<br>==========<br>";
+	// 	}
+	// }
 }

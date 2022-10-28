@@ -1,38 +1,32 @@
 let allMusic = [
     {
-         name: "sample-3s",
-         artist: "akhil",
-         img: "akhil",
-         src: "sample-3s"
+         name: "Deva_Deva",
+         artist: "Arijit Singh & Jonita Gandhi",
+         img: "Deva_Deva",
+         src: "Deva_Deva"
     },
     {
-        name: "sample1",
-        artist: "Atif_Aslam",
-        img: "Atif_Aslam",
-        src: "sample1"
+        name: "Kesariya",
+        artist: "Pritam, Arijit Singh & Amitabh Bhattacharya",
+        img: "Kesariya",
+        src: "Kesariya"
    },
    {
-        name: "sample2",
-        artist: "Badshah",
-        img: "Badshah",
-        src: "sample2"
+        name: "Manike",
+        artist: "Yohani, Jubin Nautiyal & Surya Ragunaathan",
+        img: "Manike",
+        src: "Manike"
     },
     {
-        name: "sample3",
-        artist: "female_playback",
-        img: "female_playback",
-        src: "sample3"
+        name: "Namo_Namo",
+        artist: "Amit Trivedi",
+        img: "Namo_Namo",
+        src: "Namo_Namo"
     },
     {
-        name: "sample4",
-        artist: "milind_gaba",
-        img: "milind_gaba",
-        src: "sample3"
-    },
-    {
-        name: "sample5",
-        artist: "panjabi",
-        img: "panjabi",
-        src: "sample5"
+        name: "Thumkeshwari",
+        artist: "Sachin-Jigar, Rashmeet Kaur & Ash King",
+        img: "Thumkeshwari",
+        src: "Thumkeshwari"
     }
 ]
